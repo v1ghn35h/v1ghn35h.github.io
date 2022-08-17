@@ -1,32 +1,39 @@
-<h3>Harloozz!!</h3>
 
-<table border="1">
-  <tr>
-    <th colspan="2">
-      Biography
-    </th>
-  </tr>
-  <tr>
-    <td>My Photo:)</td>
-    <td>
-      <img src="img/photo_2022-08-16_16-31-35.jpg" width="600" height="400"/>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      About myself!
-    </td>
-    <td>
-      <p>
-        Helloz! I'm Vighnesh, currently a Y2 IS student <br>
-        My hobby is playing sports 🏃🏻 and I'm currently in Ultimate Frisbee. <br>
-        Here's a pic of me getting rekted hahah 😂 <br>
-      </p>
-      <img src="img/photo_2022-08-17_02-43-52.jpg"width="600" height="400"/>
-    </td>
-  </tr>
+<?php
+echo "Hello World!";
+?>
 
-</table>
+<div align="center">
+
+  <h1>Harloozz!!</h1>
+  <table border="1">
+    <tr>
+      <th colspan="2">
+        Biography
+      </th>
+    </tr>
+    <tr>
+      <td>My Photo:)</td>
+      <td>
+        <img src="img/photo_2022-08-16_16-31-35.jpg" width="600" height="400"/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        About myself!
+      </td>
+      <td>
+        <p>
+          Helloz! I'm Vighnesh, currently a Y2 IS student <br>
+          My hobby is playing sports 🏃🏻 and I'm currently in Ultimate Frisbee. <br>
+          Here's a pic of me getting rekted hahah 😂 <br>
+        </p>
+        <img src="img/photo_2022-08-17_02-43-52.jpg"width="600" height="400"/>
+      </td>
+    </tr>
+
+  </table>
+</div>
 
 <br><br>
 
