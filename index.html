@@ -32,9 +32,9 @@
             <h2 class="logo">Me<span>Page</span></h2>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Hobbies</a></li>
-                <li><a href="#">Contact Me</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
             </ul>
             <a href="#" class="button">Subscribe</a>
         </nav>
@@ -56,7 +56,7 @@
     <section class="about">
         <div class="main">
             <img src="img/ulty.jpg">
-            <div class="about-text">
+            <div class="about-text" id="about-me">
                 <h2>About Me</h2>
                 <h5>Aspiring <span>Data Analyst</span></h5>
                 <p>I am an aspiring Data Analyst open to internship opportunities. My hobbies include playing Ultimate
@@ -68,14 +68,14 @@
 
     <!-----service section start----------->
     <div class="service container-fluid">
-        <div class="title">
+        <div class="title" id="hobbies">
             <h2>My hobbies</h2>
         </div>
 
         <div class="box">
             <div class="hobby_card">
                 <i class="fas fa-basketball-ball"></i>
-                <h5>Web Development</h5>
+                <h5>Sports</h5>
                 <div class="pra">
                     <p>Love sports. Am currently in Ultimate Frisbee and am looking to explore other sports</p>
 
@@ -87,7 +87,7 @@
 
             <div class="hobby_card">
                 <i class="fas fa-beer"></i>
-                <h5>Web Development</h5>
+                <h5>Food</h5>
                 <div class="pra">
                     <p>Love to eat. Wanna try all the different cuisines out there :) and really love korean food :p </p>
 
@@ -99,7 +99,7 @@
 
             <div class="hobby_card">
                 <i class="fas fa-globe-europe"></i>
-                <h5>Web Development</h5>
+                <h5>Travel</h5>
                 <div class="pra">
                     <p>Traveling to Europe is one of the item in my bucket list. Wanna see the Northern Lights</p>
 
@@ -114,7 +114,7 @@
     <!------Contact Me------>
     <div class="contact-me container-fluid text-center">
         <p>Let Me Get You A Inspirational Quote.</p>
-        <a class="button-two" onclick="get_quote()" href="#">Get Inspired</a>
+        <a class="button-two" onclick="get_quote()">Get Inspired</a>
 
         <div id="random-quote-box" class="container  p-3" style="display: none;">
 
@@ -133,7 +133,7 @@
     <footer>
         <p>Vighnesh Ramasamy</p>
         <p>Feel free to reach out to me @</p>
-        <div class="social">
+        <div class="social" id="contact-me">
             <a href="https://www.facebook.com/vighnesh.ramasamy" target="_blank"><i class="fab fa-facebook-f"></i></a>
             <a href="https://www.instagram.com/v1ghn35h/" target="_blank"><i class="fab fa-instagram"></i></a>
             <a href="https://www.linkedin.com/in/vighnesh-ramasamy-34b400154/" target="_blank"><i
